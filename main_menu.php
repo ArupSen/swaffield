@@ -20,6 +20,8 @@
 <!-- our school drop-down start -->
   <li><a>our school</a>
     <ul>
+<?php wp_list_bookmarks('title_li=&category=21&categorize=0&orderby=link_notes'); ?>
+<!--
 	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=2">history</a></li>
 	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=9">staff</a></li>
 	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=10">governors</a></li>
@@ -34,6 +36,7 @@
 	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page=175">School Council</a></li>
 	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page=173">Freedom of Information</a></li>
 	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page=1302">Fair Processing Notice</a></li>
+-->
     </ul>
   </li>
   <li><a>parents</a>
