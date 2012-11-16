@@ -125,7 +125,7 @@ document.oncontextmenu=new Function("alert(message);return false")
 $school_links = get_bookmarks(array('category' => 21)); // array of links in the our school category
 $parent_links = get_bookmarks(array('category' => 18)); // array of links in the parents category
 $learning_links = get_bookmarks(array('category' => 19)); // array of links in the learning category
-$contact_links = get_bookmarks(array('category' => 22)); // array of links in the contact category
+$curriculum_links = get_bookmarks(array('category' => 22)); // array of links in the curriculum category
 $news_links = get_bookmarks(array('category' => 23)); // array of links in the news category
 $page = get_the_ID(); // the current pages id
 
@@ -151,10 +151,10 @@ foreach ($learning_links as $link) {
 	}
 }
 // loop through array and see if id of link matches current page id
-foreach ($contact_links as $link) {
+foreach ($curriculum_links as $link) {
 	$link_id = preg_replace('/[^0-9]/','', $link->link_url);
 	if ($link_id == $page) {
-		include (TEMPLATEPATH. '/contact_menu.php'); // include the side menu if there is a match
+		include (TEMPLATEPATH. '/curriculum_menu.php'); // include the side menu if there is a match
 	}
 }
 // loop through array and see if id of link matches current page id
@@ -165,8 +165,8 @@ foreach ($news_links as $link) {
 	}
 }
 // side menu conditions for each smaller side menu to appear
-switch($page) {
 /*
+switch($page) {
 	case (is_page(2)):
 	case (is_page(9)):
 	case (is_page(10)):
@@ -182,7 +182,7 @@ switch($page) {
 	case (in_category(15)):
 	include (TEMPLATEPATH. '/school_menu.php'); 
 	break;
-*/
+
 	case(is_page(7)):
 	case(is_page(124)):
 	case(is_page(23)):
@@ -232,5 +232,5 @@ switch($page) {
 	default:
 	break;
 
-}
+}*/
 ?>
