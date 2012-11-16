@@ -93,7 +93,6 @@
   <li><a>curriculum</a>
     <ul>
 	<?php wp_list_bookmarks('title_li=&category=22&categorize=0'); ?>
-	<?php include(TEMPLATEPATH. '/curriculum_menu.php'); ?>
     </ul>
   </li>
   <li><a>News</a>
@@ -102,7 +101,7 @@
 <!--    <li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=4199">Latest News</a></li>
     <li><a >News Archive</a></li>
     <li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=21">Gallery</a></li>
+  -->
     </ul>
   </li>
-  -->
 </ul>
