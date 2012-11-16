@@ -17,7 +17,7 @@ Template Name: Links Page
 			  <?php the_title(); ?>
 			</a></h1>
 			<p><span class="contenttext">
-			  <ul><?php wp_list_bookmarks('title_li=&categorize=0'); ?></ul>
+			  <ul><?php wp_list_bookmarks('title_li=&category=2&categorize=0'); ?></ul>
 			  <?php the_content(''); ?>
 			</span></p>  
 
