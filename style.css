@@ -238,7 +238,7 @@ form.searchform input.button {
 	margin-top: 30px;
 	padding: 0;
 	width: 680px;		
-	min-height: 700px;
+	min-height: 500px;
 }
 /* pages that are full width */
 .page-id-29 #main, .page-id-21 #main {
@@ -385,8 +385,8 @@ padding-left: 10px;
 	}
 	ul#main_menu li:hover a { background: #DAC5C8; color:#804D55;}
 	ul#main_menu li:hover li a:hover { background: #DAC5C8; color:#804D55;}
-/*	the left hand sub-menus school_menu, parents_menu and learning_menu */
-#school_menu, #parents_menu, #learning_menu {
+/*	the left hand sub-menus school_menu, parents_menu and learning_menu plus curriculum */
+#school_menu, #parents_menu, #learning_menu, #curriculum_menu, #news_menu {
 	position:absolute;
 	  font-family: Tahoma, Verdana;
 	  font-size: 10px;
@@ -396,7 +396,7 @@ padding-left: 10px;
 	  list-style: none;
 	  top: 408px;
 	}
-#school_menu a, #parents_menu a, #learning_menu a {
+#school_menu a, #parents_menu a, #learning_menu a, #curriculum_menu a, #news_menu a {
 	  display: block;
 	  text-decoration: none;
 	  color: #FFF;
