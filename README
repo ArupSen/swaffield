@@ -1,1 +1,3 @@
 Swaffield Primary School wordpress theme update for 2012
+In the main_menu it would be better to include each file
+rather than repeat the wp_list_bookmarks
