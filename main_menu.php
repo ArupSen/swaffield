@@ -9,18 +9,11 @@
 ?>
 <ul id="main_menu">
 <!-- the home button / tab -->
-  <li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/">home</a></li>
-<!-- the contact us  button / tab -->
-  <li><a>contact</a>
-    <ul>
-	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?p=40#comments">contact us</a></li>
-	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=695">location</a></li>
-    </ul>
-  </li>
+  <li><a href="<?php bloginfo('url'); ?>">home</a></li>
 <!-- our school drop-down start -->
   <li><a>our school</a>
     <ul>
-<?php wp_list_bookmarks('title_li=&category=21&categorize=0&orderby=link_notes'); ?>
+	<?php include(TEMPLATEPATH. '/school_menu.php'); ?>
 <!--
 	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=2">history</a></li>
 	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=9">staff</a></li>
@@ -42,7 +35,8 @@
   <li><a>parents</a>
 	<!-- parents drop-down start -->
     <ul>
-  <li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=7">parent pages</a></li>
+	<?php include(TEMPLATEPATH. '/parents_menu.php'); ?>
+  <!--<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=7">parent pages</a></li>
     <li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=124">pta</a></li>
     <li><a>term dates</a></li>
     <li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=23">lunch</a></li>
@@ -60,12 +54,14 @@
 	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=97">policies</a></li>
 	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=2476">collective worship</a></li>
 	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=19">behaviour</a></li>
+	-->
     </ul>
   </li>
   <li><a>learning</a>
 	<!-- learning drop-down starts -->
     <ul>
-    <li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=26">general information</a></li>
+	<?php include(TEMPLATEPATH. '/learning_menu.php'); ?>
+<!--    <li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=26">general information</a></li>
     <li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=4854">nursery</a></li>
     <li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=4942">reception</a></li>
 	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=4903">year 1</a></li>
@@ -90,13 +86,22 @@
 	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=2476">Collective Worship</a></li>
     	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=121">Curriculum</a></li>
     	<li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=5043">Links and Resources</a></li>
+    -->
+    </ul>
+  </li>
+<!-- the curriculum  button / tab -->
+  <li><a>curriculum</a>
+    <ul>
+	<?php include(TEMPLATEPATH. '/curriculum_menu.php'); ?>
     </ul>
   </li>
   <li><a>News</a>
     <ul>
-    <li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=4199">Latest News</a></li>
+	<?php include(TEMPLATEPATH. '/news_menu.php'); ?>
+<!--    <li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=4199">Latest News</a></li>
     <li><a >News Archive</a></li>
     <li><a href="http://www.swaffield.wandsworth.sch.uk/beta-site/?page_id=21">Gallery</a></li>
     </ul>
   </li>
+  -->
 </ul>
