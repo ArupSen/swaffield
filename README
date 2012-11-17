@@ -1,3 +1,11 @@
 Swaffield Primary School wordpress theme update for 2012
-In the main_menu it would be better to include each file
-rather than repeat the wp_list_bookmarks
+
+The main feature of the new theme is the drop-down menu
+Depending on which section you are viewing a side-menu
+appears which is the same as the drop down for that 
+particular section. These menus can all be edited using
+the Links manager.
+
+The idea was to create a less cluttered look to the site
+but at the same time improve the navigation. The updates
+are all based on research and feedback from users.
