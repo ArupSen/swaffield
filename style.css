@@ -241,7 +241,7 @@ form.searchform input.button {
 	min-height: 500px;
 }
 /* pages that are full width */
-.page-id-29 #main, .page-id-21 #main {
+.page-id-29 #main, .page-id-21 #main, .page-id-742 #main {
 	width:787px;
 	margin-left: 16px;
 }
@@ -554,8 +554,7 @@ padding-bottom: 18px;
 #home_links .stripe{background-color:#DAC5C8;}
 
 /*survey box on the home page*/
-#survey {border:1px solid #E3B5BC;margin-bottom:10px;cursor:pointer;}
-#survey:hover {border-color:#9EC630;}
+#survey {border:1px solid #E3B5BC;margin-bottom:10px;}
 #survey img {border:none;float:left;margin:2px 3px;}
 #survey h4 {left:11px;position:relative;top:-2px;padding-bottom:10px;width:770px;}
 
@@ -563,11 +562,11 @@ padding-bottom: 18px;
 accessibility classes
 file and external link icons
 */
-.external {background:url(images/external_icon.jpeg) no-repeat right 50%;padding-right:12px;}
+/*.external {background:url(images/external_icon.jpeg) no-repeat right 50%;padding-right:12px;}
 ul#main_menu li ul li a.external {background:url(images/external_icon.jpeg) no-repeat right 50% #F8EDEE;}
 ul#main_menu li ul li a.external:hover {background:url(images/external_icon.jpeg) no-repeat right 50% #DAC5C8;}
 
-.file {background:url(images/file_icon.jpg) no-repeat right 0px;padding-right:10px;margin-right:2px;padding-bottom:1px;}
+.file {background:url(images/file_icon.jpg) no-repeat right 0px;padding-right:10px;margin-right:2px;padding-bottom:1px;}*/
 
 /*slideshows on the slideshow page*/
 /*div.slideshow_box div:nth-of-type(2),*/ div.slideshow_box div.righthand {width:360px; position:absolute; top:10px; left: 427px;}
