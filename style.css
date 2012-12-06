@@ -241,7 +241,7 @@ form.searchform input.button {
 	min-height: 500px;
 }
 /* pages that are full width */
-.page-id-29 #main, .page-id-21 #main, .page-id-742 #main {
+.page-id-29 #main, .page-id-21 #main, .page-id-742 #main, .page-id-695 #main {
 	width:787px;
 	margin-left: 16px;
 }
@@ -396,6 +396,9 @@ padding-left: 10px;
 	  list-style: none;
 	  top: 408px;
 	}
+/*	no news side menu on the gallery page */
+.page-id-21 #news_menu {display:none;}
+
 #school_menu a, #parents_menu a, #learning_menu a, #curriculum_menu a, #news_menu a {
 	  display: block;
 	  text-decoration: none;
@@ -570,4 +573,6 @@ ul#main_menu li ul li a.external:hover {background:url(images/external_icon.jpeg
 
 /*slideshows on the slideshow page*/
 /*div.slideshow_box div:nth-of-type(2),*/ div.slideshow_box div.righthand {width:360px; position:absolute; top:10px; left: 427px;}
-.slideshow_box {position:relative;padding-bottom:50px; border-bottom: 1px solid #ccc; padding-top:10px;}
+.slideshow_box {position:relative;padding-bottom:22px; border-bottom: 1px solid #ccc; padding-top:10px;}
+#fadeshow1 img{position:relative;top:-3px;left:-3px;}
+#fadeshow1 img:hover{position:relative;top:-5px;left:-5px;}
