@@ -109,7 +109,8 @@ document.oncontextmenu=new Function("alert(message);return false")
 <!--	<img src="<?php bloginfo('template_directory'); ?>/images/headerphoto.jpg" width="820" height="120" alt="headerphoto" class="no-border" />
 -->	
 <div style="height:240px;position:relative;"><!-- wraps flashfader and stops page jumping up and down -->
-<?php include (ABSPATH.'wp-content/flashfader/flashfaderhtml.txt'); ?>
+<?php if (function_exists (ssg_show)) ssg_show(); ?>
+<?php //include (ABSPATH.'wp-content/flashfader/flashfaderhtml.txt'); ?>
 <?php include (TEMPLATEPATH. '/newsBox.php'); ?>
 </div> 
 <!-- <div id="sidebar" >
