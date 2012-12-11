@@ -276,6 +276,8 @@ form.searchform input.button {
 	padding-left: 20px; margin: 0 10px 0 5px;
 }
 
+#commentform textarea#comment {width:730px;}
+
 /* sidebar */
 #sidebar {
 	float: left;
